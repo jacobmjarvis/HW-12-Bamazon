@@ -1,15 +1,16 @@
 # Bamazon
 Week 12 Homework - UNC Chapel Hill Coding Bootcamp
 
-##Objective
+## Objective
 To create an Amazon-like storefront MySQL. The app takes in orders from customers and depletes stock from the store's inventory. The program will also track product sales across the store's departments and then provide a summary of the highest-grossing departments in the store. The app is broken down into the following three functions. 
 
-###Function 1: Customer View
+### Function 1: Customer View
 
-####Screenshots
-![Image of Customer Interface](https://github.com/jacobmjarvis/HW-12-Bamazon/screenshots/cust_scrn.jpeg)
+#### Screenshots
 
-![Image of Customer Interface](https://github.com/jacobmjarvis/HW-12-Bamazon/screenshots/cust_scrn_2.jpeg)
+![Image of Customer Interface](https://jacobmjarvis.github.io/HW-12-Bamazon/screenshots/cust_scrn.jpeg)
+
+![Image of Customer Interface](https://jacobmjarvis.github.io/HW-12-Bamazon/screenshots/cust_scrn_2.jpeg)
 
 ####Tasks Completed
 
@@ -44,17 +45,18 @@ To create an Amazon-like storefront MySQL. The app takes in orders from customer
 	* This means updating the SQL database to reflect the remaining quantity.
 	* Once the update goes through, show the customer the total cost of their purchase.
 
-###Function 2: Manager View
+### Function 2: Manager View
 
-####Screenshots
-![Image of Manager Interface](https://github.com/jacobmjarvis/HW-12-Bamazon/screenshots/mgr_scrn.jpeg)
+#### Screenshots
 
-![Image of Manager Interface](https://github.com/jacobmjarvis/HW-12-Bamazon/screenshots/mgr_scrn_2.jpeg)
+![Image of Manager Interface](https://jacobmjarvis.github.io/HW-12-Bamazon/screenshots/mgr_scrn.jpeg)
 
-![Image of Manager Interface](https://github.com/jacobmjarvis/HW-12-Bamazon/screenshots/mgr_scrn_3.jpeg)
+![Image of Manager Interface](https://jacobmjarvis.github.io/HW-12-Bamazon/screenshots/mgr_scrn_2.jpeg)
+
+![Image of Manager Interface](https://jacobmjarvis.github.io/HW-12-Bamazon/screenshots/mgr_scrn_3.jpeg)
 
 
-####Tasks
+#### Tasks
 
 * Create a new Node application called `BamazonManager.js`. Running this application will:
 
@@ -72,12 +74,13 @@ To create an Amazon-like storefront MySQL. The app takes in orders from customer
 
 	* If a manager selects `Add New Product`, it should allow the manager to add a completely new product to the store.
 
-###Function 3: Executive View
+### Function 3: Executive View
 
-####Screenshot
-![Image of Executive Interface](https://github.com/jacobmjarvis/HW-12-Bamazon/screenshots/exec_scrn.jpeg)
+#### Screenshot
 
-####Tasks
+![Image of Executive Interface](https://jacobmjarvis.github.io/HW-12-Bamazon/screenshots/exec_scrn.jpeg)
+
+#### Tasks
 
 1. Create a new MySQL table called `Departments`. Your table should include the following columns:
 
